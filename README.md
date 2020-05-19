@@ -1,6 +1,6 @@
 # Data Culpa Validator Getting Started
 
-Welcome to Data Culpa Validator, a data quality monitoring solution for all your data pipelines. You can use Data Culpa Validator to ensure the proper long-running operation of data pipelines, whether those pipelines are supporting AI analysis, BI reporting, ETL operations, or some other data-intensive process. Validator captures inputs from upstream, from data pipeline output, and from specific values used in the pipeline's operation. Validator automatically raises alerts when it detects anomalies that could jeopardize results. Validator makes it easy for you to compare operations from present to past and to visualize changes in operations over time across a variety of dimensions: runtime throughput, schema changes, and even type and value changes within fields.
+Welcome to Data Culpa Validator, a data quality monitoring solution for all your data pipelines. You can use Data Culpa Validator to ensure the proper long-running operation of data pipelines, whether those pipelines are supporting AI analysis, BI reporting, ETL operations, or some other data-intensive process. Validator captures inputs from upstream, from data pipeline output, and from specific values used in the pipeline's operation and automatically raises alerts when it detects anomalies that could jeopardize pipeline results. Validator makes it easy for you to compare operations from present to past and to visualize changes in operations over time across a variety of dimensions: runtime throughput, schema changes, and even type and value changes within fields.
  
 Data Culpa Validator is built for flexible operations and scale. You can push data from your pipeline into Validator asynchronously for high-throughput operation and post facto analysis, or you can call Validator in synchronous mode to capture and react to problematic data before operations continue.
 
@@ -107,7 +107,7 @@ Open the UI via a web browser. Validator uses Okta for authentication, even with
 
 ### Pipeline Dashboards
 
-The pipeline dashboards page provides a high level view of pipeline activity within your Validator instance. The main graph shows the number of records processed and when, going back 14 days. Initially the graph will be sparse until you have some running history with Validator.
+The pipeline dashboards page provides a high-level view of pipeline activity in your Validator instance. The main graph shows the number of records processed and when, going back 14 days. Initially the graph will be sparse until you have some running history with Validator.
 
 "You don’t have any pipelines yet; learn how to set one up now!"
 
